@@ -1,0 +1,16 @@
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.AssemblyInfoInputs.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.AssemblyInfo.cs
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.csproj.CoreCompileInputs.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.csprojAssemblyReference.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.exe
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.deps.json
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.runtimeconfig.json
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.runtimeconfig.dev.json
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\ref\AssemblyBrowser.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\bin\Debug\net5.0\AssemblyBrowser.pdb
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\ref\AssemblyBrowser.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.pdb
+C:\Users\Dasha_2\RiderProjects\SPP3\AssemblyBrowser\obj\Debug\net5.0\AssemblyBrowser.genruntimeconfig.cache
