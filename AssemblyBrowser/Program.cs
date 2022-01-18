@@ -6,7 +6,10 @@ namespace AssemblyBrowser
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Hello");
+            string path = @"C:\\Users\\Dasha_2\\RiderProjects\\Tracer\\Tracer\\bin\\Debug\\net5.0\\Tracer.dll";
+            ReaderLibrary reader = new ReaderLibrary();
+            reader.GetResult(path);
+            Console.WriteLine(reader.ToString());
         }
     }
 }
