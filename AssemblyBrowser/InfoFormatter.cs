@@ -6,17 +6,16 @@ namespace AssemblyBrowser
 {
     public class InfoFormatter
     {
-        public string _nameSpace;
-        public string _class;
-        public List<MethodInfo> _methods;
-        public List<PropertyInfo> _properties;
-        public List<FieldInfo> _fields;
-
+        public string _nameSpace { get; set; }
+        public string _type { get; set; }
+        public List<MethodInfo> _methods { get; set; }
+        public List<PropertyInfo> _properties { get; set; }
+        public List<FieldInfo> _fields { get; set; }
 
         public InfoFormatter()
         {
             _nameSpace = "";
-            _class = "";
+            _type = "";
             _methods = new List<MethodInfo>();
             _properties = new List<PropertyInfo>();
             _fields = new List<FieldInfo>();

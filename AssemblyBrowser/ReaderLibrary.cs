@@ -9,7 +9,7 @@ namespace AssemblyBrowser
     public class ReaderLibrary : IReader
     {
         private Assembly asm;
-        List<InfoFormatter> typeList = new List<InfoFormatter>();
+        public List<InfoFormatter> typeList = new List<InfoFormatter>();
         
         private MethodInfo[] GetMethods(Type type)
         {
@@ -55,7 +55,7 @@ namespace AssemblyBrowser
             {
                 InfoFormatter format = new InfoFormatter();
                 format._nameSpace = type.Namespace;
-                format._class = type.Name;
+                format._type = type.Name;
                 format._fields = GetFields(type).ToList();
                 format._methods = GetMethods(type).ToList();
                 format._properties = GetProperties(type).ToList();

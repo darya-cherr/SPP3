@@ -28,3 +28,4 @@ C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrow
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.exe
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.dll
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.pdb
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

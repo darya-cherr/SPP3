@@ -16,7 +16,18 @@
                 Open File
             </Button>    
         </WrapPanel>
-        <TreeView Margin="10,0,0,13" Name="tree">
+        <TreeView ItemsSource="{Binding List}" Margin="10,0,0,13" Name="tree">
+            <TreeView.ItemTemplate>  
+                <HierarchicalDataTemplate>
+                    <TreeViewItem Header="{Binding _nameSpace}">
+                    <TreeViewItem Header="{Binding _type}">
+                        <TreeViewItem Header="Methods" ItemsSource="{Binding _methods}"/> 
+                        <TreeViewItem Header="Fields" ItemsSource="{Binding _fields}"/>  
+                        <TreeViewItem Header="Properties" ItemsSource="{Binding _properties}"/>  
+                    </TreeViewItem>  
+                    </TreeViewItem>  
+                    </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>  
         </TreeView>
     </DockPanel>
 </Window>
