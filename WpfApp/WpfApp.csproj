@@ -8,8 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Model" />
-      <Folder Include="ViewModel" />
+      <PackageReference Include="JetBrains.Annotations" Version="2021.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AssemblyBrowser\AssemblyBrowser.csproj" />
     </ItemGroup>
 
 </Project>

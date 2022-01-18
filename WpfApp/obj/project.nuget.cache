@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QgV3wStwDo5oPqzM5m5k5kVddSL7o1l+kudSVOlhcUsb3xeYXjMLfRzhxWY/6EgZtzjOvvjieyyv+t9C6oMr9g==",
+  "dgSpecHash": "NQPM7abmydaOF6Ip5fh3ukEWQTFIFQT8Vy8Cd5fIFhFaltsVIntEPIZNl5GQSgP9SHRfT4Sq6AJgnvoJ57Jutw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dasha_2\\RiderProjects\\SPP3\\WpfApp\\WpfApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dasha_2\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

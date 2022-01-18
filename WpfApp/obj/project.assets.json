@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "JetBrains.Annotations/2021.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
+      "AssemblyBrowser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AssemblyBrowser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AssemblyBrowser.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JetBrains.Annotations/2021.3.0": {
+      "sha512": "Ddxjs5RRjf+c8m9m++WvhW1lz1bqNhsTjWvCLbQN9bvKbkJeR9MhtfNwKgBRRdG2yLHcXFr5Lf7fsvvkiPaDRg==",
+      "type": "package",
+      "path": "jetbrains.annotations/2021.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2021.3.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
+    "AssemblyBrowser/1.0.0": {
+      "type": "project",
+      "path": "../AssemblyBrowser/AssemblyBrowser.csproj",
+      "msbuildProject": "../AssemblyBrowser/AssemblyBrowser.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "AssemblyBrowser >= 1.0.0",
+      "JetBrains.Annotations >= 2021.3.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dasha_2\\.nuget\\packages\\": {},
@@ -38,7 +89,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dasha_2\\RiderProjects\\SPP3\\AssemblyBrowser\\AssemblyBrowser.csproj": {
+              "projectPath": "C:\\Users\\Dasha_2\\RiderProjects\\SPP3\\AssemblyBrowser\\AssemblyBrowser.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -50,6 +105,12 @@
     "frameworks": {
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "JetBrains.Annotations": {
+            "target": "Package",
+            "version": "[2021.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

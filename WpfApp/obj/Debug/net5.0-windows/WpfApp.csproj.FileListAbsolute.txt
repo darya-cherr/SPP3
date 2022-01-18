@@ -20,3 +20,11 @@ C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\WpfApp.pdb
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\WpfApp.genruntimeconfig.cache
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\View\MainWindow.g.cs
 C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\View\MainWindow.baml
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\JetBrains.Annotations.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\obj\Debug\net5.0-windows\WpfApp.csproj.CopyComplete
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.deps.json
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.runtimeconfig.json
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.runtimeconfig.dev.json
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.exe
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\WpfApp\bin\Debug\net5.0-windows\AssemblyBrowser.pdb
