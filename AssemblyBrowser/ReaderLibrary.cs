@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace AssemblyBrowser
@@ -9,11 +10,19 @@ namespace AssemblyBrowser
     public class ReaderLibrary : IReader
     {
         private Assembly asm;
-        public List<InfoFormatter> typeList = new List<InfoFormatter>();
+        public List<InfoFormatter> typeList;
         
-        private MethodInfo[] GetMethods(Type type)
+        private List<MethodInfo> GetMethods(Type type)
         {
-            return type.GetMethods();
+            List<MethodInfo> methods = new List<MethodInfo>();
+            foreach (var method in type.GetMethods())
+            {
+                if (method.Module.Name == "TestClass.dll")
+                {
+                    methods.Insert(0, method);
+                }
+            }
+            return methods;
         }
         
         private FieldInfo[] GetFields(Type type)
@@ -31,9 +40,15 @@ namespace AssemblyBrowser
             return Assembly.LoadFrom(path);;
         }
         
-        private Type[] GetTypes()
+        private List<Type> GetTypes()
         {
-            return asm.GetTypes();
+            List<Type> types = new List<Type>();
+            foreach (var type in asm.GetTypes())
+            {
+                if (type.Namespace != "System.Runtime.CompilerServices" && type.Namespace != "Microsoft.CodeAnalysis")
+                    types.Insert(0,type);
+            }
+            return types;
         }
         
         public override string ToString()
@@ -50,14 +65,15 @@ namespace AssemblyBrowser
         public void GetResult(string path)
         {
             asm = LoadAssembly(path);
-            Type[] asmTypes = GetTypes();
+            typeList = new List<InfoFormatter>();
+            List<Type> asmTypes = GetTypes();
             foreach (var type in asmTypes)
             {
                 InfoFormatter format = new InfoFormatter();
                 format._nameSpace = type.Namespace;
                 format._type = type.Name;
                 format._fields = GetFields(type).ToList();
-                format._methods = GetMethods(type).ToList();
+                format._methods = GetMethods(type);
                 format._properties = GetProperties(type).ToList();
                 typeList.Add(format);
             }

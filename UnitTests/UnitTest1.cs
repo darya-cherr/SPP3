@@ -26,33 +26,33 @@ public class TestClass
             if (type._nameSpace != "")
                 result++;
         }
-        Assert.AreEqual(result, 6);
+        Assert.AreEqual(result, 3);
     }
     
     [Test]
     public void TestNamespaceName()
     {
-        Assert.AreEqual(reader.typeList[5]._nameSpace, nameof(Namespace1));
-        Assert.AreEqual(reader.typeList[4]._nameSpace, nameof(Namespace2));
-        Assert.AreEqual(reader.typeList[3]._nameSpace, nameof(Namespace3));
+        Assert.AreEqual(reader.typeList[0]._nameSpace, nameof(Namespace1));
+        Assert.AreEqual(reader.typeList[1]._nameSpace, nameof(Namespace2));
+        Assert.AreEqual(reader.typeList[2]._nameSpace, nameof(Namespace3));
     }
 
     [Test]
     public void TestMethodCountClassB()
     {
-        Assert.AreEqual(reader.typeList[4]._methods.Count, 6);
+        Assert.AreEqual(reader.typeList[1]._methods.Count, 2);
     }
     
     [Test]
     public void TestPropertiesCountClassC()
     {
-        Assert.AreEqual(reader.typeList[3]._properties.Count, 2);
+        Assert.AreEqual(reader.typeList[2]._properties.Count, 2);
     }
     
     [Test]
     public void TestFieldsCountClassA()
     {
-        Assert.AreEqual(reader.typeList[5]._fields.Count, 4);
+        Assert.AreEqual(reader.typeList[0]._fields.Count, 4);
     }
 }
 

@@ -1,0 +1,12 @@
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.csprojAssemblyReference.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.AssemblyInfoInputs.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.AssemblyInfo.cs
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.csproj.CoreCompileInputs.cache
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\bin\Debug\net5.0\TestClass.deps.json
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\bin\Debug\net5.0\TestClass.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\bin\Debug\net5.0\ref\TestClass.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\bin\Debug\net5.0\TestClass.pdb
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\ref\TestClass.dll
+C:\Users\Dasha_2\RiderProjects\SPP3\TestClass\obj\Debug\net5.0\TestClass.pdb

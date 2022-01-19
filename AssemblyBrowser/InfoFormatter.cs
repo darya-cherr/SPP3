@@ -25,12 +25,16 @@ namespace AssemblyBrowser
         {
             StringBuilder builder = new StringBuilder();
 
-            builder.Append($"Methods - \n{WriteMethods()}\n Properties - \n{WriteProperties()}\n " +
+            builder.Append($"Class - {WriteClass()}\n Methods - \n{WriteMethods()}\n Properties - \n{WriteProperties()}\n " +
                            $"Fields - \n{WriteFields()}");
 
             return builder.ToString();
         }
-        
+
+        private string WriteClass()
+        {
+            return _type;
+        }
         private string WriteMethods()
         {
             StringBuilder builder = new StringBuilder();
