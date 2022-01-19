@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowser", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{942B36FA-A146-44F9-ADF0-2AAD9940AD87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{68838E93-2329-4893-A6E4-6B9494087E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClass", "TestClass\TestClass.csproj", "{A096A85C-789D-413D-A39F-8720205CEC45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{942B36FA-A146-44F9-ADF0-2AAD9940AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942B36FA-A146-44F9-ADF0-2AAD9940AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942B36FA-A146-44F9-ADF0-2AAD9940AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68838E93-2329-4893-A6E4-6B9494087E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68838E93-2329-4893-A6E4-6B9494087E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68838E93-2329-4893-A6E4-6B9494087E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68838E93-2329-4893-A6E4-6B9494087E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A096A85C-789D-413D-A39F-8720205CEC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A096A85C-789D-413D-A39F-8720205CEC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A096A85C-789D-413D-A39F-8720205CEC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A096A85C-789D-413D-A39F-8720205CEC45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

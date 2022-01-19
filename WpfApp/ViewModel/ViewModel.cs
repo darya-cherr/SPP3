@@ -12,7 +12,7 @@ namespace WpfApp.ViewModel
     public class ViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
-        private readonly AssemblyBrowser.ReaderLibrary reader = new AssemblyBrowser.ReaderLibrary();
+        
         
         [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -31,13 +31,14 @@ namespace WpfApp.ViewModel
             }  
             set  
             {  
-                _list = value;  
+                _list = value;
                 OnPropertyChanged(nameof(List));  
             }  
         }
 
         private void OpenFile()
         {
+            AssemblyBrowser.ReaderLibrary reader = new AssemblyBrowser.ReaderLibrary();
             var openFileDialog = new OpenFileDialog
             {
                 Filter = "Assemblies|*.dll;*.exe", Title = "Select assembly", Multiselect = false
